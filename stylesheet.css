@@ -1,14 +1,10 @@
-body{
-    margin: 0;
-    padding: 0;
+*{
     box-sizing: border-box;
-    background-color: #f9f7f7;
-    width: 100%;
 }
 
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
+.html, body{
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -38,8 +34,9 @@ header{
 }
 
 .top-wrapper{
-    padding: 150px 0 150px 0;
-    height: 300px;
+    padding-top: 150px;
+    height: 440px;
+    margin-bottom: 40px;
 }
 
 .left-wrapper{
@@ -72,14 +69,16 @@ header{
     width: 25%;
 }
 
+.bottom-wrapper{
+    height: 300px;
+    margin-bottom: 50px;
+}
+
 .main{
-    height: 1100px;
+    height: 1000px;
     background-color:#dbe2ef;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
     padding-bottom: 30px;
+    margin: 0 50px 50px 50px;
 }
 
 .members{
@@ -88,7 +87,7 @@ header{
 }
 
 .members h1{
-    color: #112d4e;
+    color: #3f72af;
 }
 
 .member-icon{
@@ -105,11 +104,20 @@ header{
 
 .member-item{
     text-align: center;
-    background-color: #3f72af;
-    width: 20%;
+    background-color: #4072b0;
+    width: 25%;
     padding: 30px;
     margin: 30px 47px;
-    
+    border-radius: 50px;
+}
+
+.member-item img{
+    border-radius: 50px;
+}
+
+.contact-wrapper{
+    margin-bottom: 50px;
+    height: 200px;
 }
 
 .txt-content{
@@ -117,6 +125,16 @@ header{
     display: inline-block;
     margin-top: 20px;
     font-size: 15px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.clear{
+    clear: left;
 }
 
 footer{
@@ -129,7 +147,7 @@ footer{
     height: 300px;
 }
 
-.footer-list, .footer-content, .social-media-list{
+.footer-content, .social-media-list{
     padding: 20px;
 }
 
@@ -139,7 +157,9 @@ footer{
 }
 
 .footer-list{
-    height: 50px;
+    height: 60px;
+    border-bottom: 2px solid rgb(182, 179, 179);
+    text-align: center;
 }
 
 .footer-list li{
@@ -176,6 +196,6 @@ footer{
     width: 100%;
     background-color: #112d4e;
     text-align: center;
-    height: 45px;
-    padding: 10px;
+    height: 50px;
+    padding: 1px;
 }
